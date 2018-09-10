@@ -1,0 +1,19 @@
+section{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 45px;  
+}
+
+h1{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+
+.company{
+  color: MediumAquamarine;
+  margin-right: auto;
+}

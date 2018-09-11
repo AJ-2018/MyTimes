@@ -27,13 +27,35 @@
 
 .content{
   padding-top: 20px;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+
+
 }
 
 .column.large{
   width: 630px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
 
 .column.medium{
   width: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small{
+  width: 240px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.article{
+  border: 1px solid black;
 }

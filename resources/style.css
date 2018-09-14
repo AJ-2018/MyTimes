@@ -3,6 +3,8 @@
   margin-right: 45px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
+
+  background-color: white;
 }
 
 .company,
@@ -26,10 +28,11 @@
 }
 
 .content{
-  padding-top: 20px;
+
   display: flex;
   justify-content: space-around;
   border: 1px solid black;
+  padding-top: 50px;
 
 
 }
@@ -39,7 +42,7 @@
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+
 }
 
 .column.medium{
@@ -58,4 +61,51 @@
 
 .article{
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.article.main-story{
+  background-image: url("https://raw.githubusercontent.com/AJ-2018/MyTimes/master/resources/images/main-story.png");
+  height: 300px;
+  display: flex;
+
+
+}
+
+
+.article.cats{
+  background-image: url("https://raw.githubusercontent.com/AJ-2018/MyTimes/master/resources/images/cat.png");
+  height: 300px;
+  display: flex;
+}
+
+.article.earth{
+  background-image: url("https://raw.githubusercontent.com/AJ-2018/MyTimes/master/resources/images/fall.png");
+  height: 300px;
+  display: flex;
+}
+
+.article.cameras{
+  background-image: url("https://raw.githubusercontent.com/AJ-2018/MyTimes/master/resources/images/cameraman.png");
+  height: 300px;
+  display: flex;
+
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 0;
+  text-align: center;
+
+}
+
+.article-maintitle{
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin-top: 0;
 }
